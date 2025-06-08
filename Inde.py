@@ -1,6 +1,8 @@
 import os
 import yt_dlp
 
+# download the Instagram vedio with just link of instagram 
+# Single Vedio at a time 
 def download_instagram_video(url, output_path='F:/INSTA'):
     # Ensure output directory exists
     if not os.path.exists(output_path):
